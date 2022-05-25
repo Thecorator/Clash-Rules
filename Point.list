@@ -1,0 +1,21 @@
+# 内容：自用
+
+DOMAIN-SUFFIX,jsdelivr.net
+DOMAIN-SUFFIX,cdn.jsdelivr.net
+
+DOMAIN-SUFFIX,kinh.cc
+
+DOMAIN-SUFFIX,telegra.ph
+
+DOMAIN-KEYWORD,emby
+
+# IP Widget
+DOMAIN-SUFFIX,ip-widget.net
+DOMAIN-SUFFIX,ipwidget.ithiess.de
+DOMAIN-SUFFIX,dieterthiess.de
+
+DOMAIN-KEYWORD,sehuatang
+
+DOMAIN-SUFFIX,crowdin.com
+
+DOMAIN-SUFFIX,f-droid.org

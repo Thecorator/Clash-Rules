@@ -1,0 +1,22 @@
+# 内容：自用
+
+DOMAIN,mypikpak.com
+DOMAIN,user.mypikpak.com
+DOMAIN,user.mypikpak.net
+DOMAIN,drive.mypikpak.com
+DOMAIN,api-drive.mypikpak.com
+DOMAIN,config.mypikpak.com
+DOMAIN,access.mypikpak.com
+DOMAIN,static.mypikpak.com
+DOMAIN,inapp.mypikpak.com
+DOMAIN,toapp.mypikpak.com
+DOMAIN,hubciddata.mypikpak.com
+DOMAIN,rcv5-gcm-sp.mypikpak.com
+
+# 印度尼西亚 阿里云
+IP-CIDR,149.129.213.180/32
+DOMAIN,vod0037-aliyun17-vip-lixian.mypikpak.com
+IP-CIDR,149.129.255.40/32
+DOMAIN,vod0038-aliyun17-vip-lixian.mypikpak.com
+IP-CIDR,147.139.180.89/32
+DOMAIN,vod0039-aliyun17-vip-lixian.mypikpak.com
