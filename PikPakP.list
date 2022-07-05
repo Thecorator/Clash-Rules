@@ -1,16 +1,34 @@
 # 内容：自用
 
+IP-CIDR,47.241.212.52/32
+
 DOMAIN,mypikpak.com
 DOMAIN,user.mypikpak.com
 DOMAIN,user.mypikpak.net
 DOMAIN,drive.mypikpak.com
 DOMAIN,api-drive.mypikpak.com
 DOMAIN,config.mypikpak.com
+DOMAIN,copyright.mypikpak.com
 DOMAIN,access.mypikpak.com
+DOMAIN,access.mypikpak.net
+DOMAIN,adjust.mypikpak.com
+DOMAIN,api-audit.mypikpak.com
+DOMAIN,api-drive.mypikpak.com
+DOMAIN,api-drive.mypikpak.net
+DOMAIN,api-feedback.mypikpak.com
+DOMAIN,pay-gateway.mypikpak.com
+DOMAIN,pay-gateway.mypikpak.net
+DOMAIN,pay.mypikpak.com
+DOMAIN,pay.mypikpak.net
+DOMAIN,i.mypikpak.com
+DOMAIN,feedback.mypikpak.com
 DOMAIN,static.mypikpak.com
 DOMAIN,inapp.mypikpak.com
+DOMAIN,info.mypikpak.com
 DOMAIN,toapp.mypikpak.com
 DOMAIN,hubciddata.mypikpak.com
+DOMAIN,hub5pnc.mypikpak.com
+DOMAIN,hub5pn.mypikpak.com
 DOMAIN,rcv5-gcm-sp.mypikpak.com
 
 # 印度尼西亚 阿里云
