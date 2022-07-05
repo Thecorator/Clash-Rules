@@ -3,6 +3,3 @@
 DOMAIN-SUFFIX,vk.com
 DOMAIN-SUFFIX,userapi.com
 DOMAIN-SUFFIX,sharepoint.com
-
-# PikPak 分享
-IP-CIDR,47.241.212.52/32
