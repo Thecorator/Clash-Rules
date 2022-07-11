@@ -1,5 +1,8 @@
 # 内容：自用
 
+# VK
 DOMAIN-SUFFIX,vk.com
 DOMAIN-SUFFIX,userapi.com
+
+# OneDrive
 DOMAIN-SUFFIX,sharepoint.com
