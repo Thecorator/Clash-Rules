@@ -32,3 +32,6 @@ DOMAIN-KEYWORD,sehuatang
 DOMAIN-SUFFIX,crowdin.com
 
 DOMAIN-SUFFIX,f-droid.org
+
+# 微软网络地球图标
+DOMAIN-SUFFIX,msftconnecttest.com
