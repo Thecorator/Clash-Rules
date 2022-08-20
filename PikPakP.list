@@ -45,9 +45,9 @@ DOMAIN,hub5pn.mypikpak.com
 DOMAIN,rcv5-gcm-sp.mypikpak.com
 
 # 印度尼西亚 阿里云
-IP-CIDR,149.129.213.180/32
-DOMAIN,vod0037-aliyun17-vip-lixian.mypikpak.com
-IP-CIDR,149.129.255.40/32
-DOMAIN,vod0038-aliyun17-vip-lixian.mypikpak.com
-IP-CIDR,147.139.180.89/32
-DOMAIN,vod0039-aliyun17-vip-lixian.mypikpak.com
+#IP-CIDR,149.129.213.180/32
+#DOMAIN,vod0037-aliyun17-vip-lixian.mypikpak.com
+#IP-CIDR,149.129.255.40/32
+#DOMAIN,vod0038-aliyun17-vip-lixian.mypikpak.com
+#IP-CIDR,147.139.180.89/32
+#DOMAIN,vod0039-aliyun17-vip-lixian.mypikpak.com
