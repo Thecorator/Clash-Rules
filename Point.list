@@ -15,6 +15,7 @@
 
 DOMAIN-SUFFIX,jsdelivr.net
 DOMAIN-SUFFIX,cdn.jsdelivr.net
+DOMAIN-SUFFIX,npm.elemecdn.com
 
 DOMAIN-KEYWORD,kinh
 
