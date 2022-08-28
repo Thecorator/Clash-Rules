@@ -17,5 +17,8 @@ DOMAIN-SUFFIX,115.com
 DOMAIN-SUFFIX,anxia.com
 
 # 微信聊天表情包
-DOMAIN,pp.myapp.com
 DOMAIN,wxsnsdythumb.wxs.qq.com
+DOMAIN,wxsnsdy.wxs.qq.com
+
+# 酷安缩略图
+DOMAIN,pp.myapp.com
