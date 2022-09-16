@@ -22,3 +22,6 @@ DOMAIN,wxsnsdy.wxs.qq.com
 
 # 酷安缩略图
 DOMAIN,pp.myapp.com
+
+# Cloudflare workers 直连
+DOMAIN-SUFFIX,workers.dev
