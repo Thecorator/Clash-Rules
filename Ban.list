@@ -18,3 +18,17 @@ IP-CIDR,113.137.44.145/32
 IP-CIDR,112.124.118.42/32
 DOMAIN-SUFFIX,cloudfs.info
 DOMAIN-SUFFIX,myapp.com
+
+# 友盟（115 小幸运）
+DOMAIN-SUFFIX,umengcloud.com
+
+# 腾讯广告（115 小幸运）
+DOMAIN-SUFFIX,oth.eve.mdt.qq.com
+
+# 腾讯广告
+DOMAIN-SUFFIX,oth.eve.mdt.qq.com.com
+DOMAIN-SUFFIX,oth.str.mdt.qq.com
+DOMAIN-SUFFIX,btrace.qq.com
+DOMAIN-SUFFIX,astrategy.beacon.qq.com
+DOMAIN-SUFFIX,aeventlog.beacon.qq.com
+DOMAIN-SUFFIX,btrace.video.qq.com
