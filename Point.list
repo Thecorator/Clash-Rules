@@ -13,15 +13,8 @@
 #RULE-SET,Rule Provider 规则匹配
 #MATCH,全匹配（一般放在最后）
 
-DOMAIN-SUFFIX,jsdelivr.net
-DOMAIN-SUFFIX,cdn.jsdelivr.net
-DOMAIN-SUFFIX,npm.elemecdn.com
-
-DOMAIN-KEYWORD,kinh
-
-DOMAIN-SUFFIX,telegra.ph
-
-DOMAIN-KEYWORD,emby
+# 微软网络地球图标
+DOMAIN-SUFFIX,msftconnecttest.com
 
 # IP Widget
 DOMAIN-SUFFIX,ip-widget.net
@@ -30,9 +23,8 @@ DOMAIN-SUFFIX,dieterthiess.de
 
 DOMAIN-KEYWORD,sehuatang
 
+DOMAIN-KEYWORD,kinh
+
 DOMAIN-SUFFIX,crowdin.com
 
 DOMAIN-SUFFIX,f-droid.org
-
-# 微软网络地球图标
-DOMAIN-SUFFIX,msftconnecttest.com
