@@ -13,6 +13,7 @@
 #RULE-SET,Rule Provider 规则匹配
 #MATCH,全匹配（一般放在最后）
 
+# 可疑 ip
 IP-CIDR,113.96.202.106/32
 IP-CIDR,113.137.44.145/32
 IP-CIDR,112.124.118.42/32
@@ -20,16 +21,12 @@ IP-CIDR,112.124.118.42/32
 DOMAIN-SUFFIX,cloudfs.info
 IP-CIDR,47.100.96.71/32
 
-DOMAIN-SUFFIX,myapp.com
-
-# 友盟（115 小幸运）
+# 友盟
 DOMAIN-SUFFIX,umengcloud.com
-
-# 腾讯广告（115 小幸运）
-DOMAIN-SUFFIX,oth.eve.mdt.qq.com
 
 # 腾讯广告
 DOMAIN-SUFFIX,oth.eve.mdt.qq.com.com
+DOMAIN-SUFFIX,oth.eve.mdt.qq.com
 DOMAIN-SUFFIX,oth.str.mdt.qq.com
 DOMAIN-SUFFIX,btrace.qq.com
 DOMAIN-SUFFIX,astrategy.beacon.qq.com
