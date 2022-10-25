@@ -31,12 +31,6 @@ IP-CIDR,47.241.212.52/32
 IP-CIDR,47.241.183.16/32
 IP-CIDR,8.219.42.61/32
 
-DOMAIN,access.mypikpak.com
-DOMAIN,access.mypikpak.net
-DOMAIN,access.pikpak.me
-DOMAIN,access.pikpakdrive.com
-IP-CIDR,161.117.181.246/32
-
 DOMAIN,i.mypikpak.com
 DOMAIN,i.mypikpak.net
 DOMAIN,i.pikpak.me
