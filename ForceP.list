@@ -1,0 +1,20 @@
+# 内容：自用
+
+#DOMAIN,完整域名匹配
+#DOMAIN-SUFFIX,后缀域名匹配
+#DOMAIN-KEYWORD,域名关键词匹配
+#IP-CIDR,IPV4 匹配
+#IP-CIDR6,IPV6 匹配
+#SRC-IP-CIDR,源 IP 段匹配
+#GEOIP,数据库（国家代码）匹配
+#DST-PORT,目标端口匹配
+#SRC-PORT,源端口匹配
+#PROCESS-NAME,进程名称匹配
+#RULE-SET,Rule Provider 规则匹配
+#MATCH,全匹配（一般放在最后）
+
+DOMAIN,access.mypikpak.com
+DOMAIN,access.mypikpak.net
+DOMAIN,access.pikpak.me
+DOMAIN,access.pikpakdrive.com
+IP-CIDR,161.117.181.246/32
