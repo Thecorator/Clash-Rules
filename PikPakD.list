@@ -16,18 +16,22 @@
 DOMAIN,mypikpak.com
 DOMAIN,mypikpak.net
 DOMAIN,pikpak.me
+DOMAIN,pikpakdrive.com
 
 DOMAIN,user.mypikpak.com
 DOMAIN,user.mypikpak.net
 DOMAIN,user.pikpak.me
+DOMAIN,user.pikpakdrive.com
 
 DOMAIN,i.mypikpak.com
 DOMAIN,i.mypikpak.net
 DOMAIN,i.pikpak.me
+DOMAIN,i.pikpakdrive.com
 
 DOMAIN,static.mypikpak.com
 DOMAIN,static.mypikpak.net
 DOMAIN,static.pikpak.me
+DOMAIN,static.pikpakdrive.com
 
 DOMAIN,config.mypikpak.com
 
@@ -37,29 +41,30 @@ DOMAIN,adjust.mypikpak.com
 
 DOMAIN,api-audit.mypikpak.com
 
-DOMAIN,api-drive.mypikpak.com
-DOMAIN,api-drive.mypikpak.net
-DOMAIN,api-drive.pikpak.me
-
 DOMAIN,api-feedback.mypikpak.com
 DOMAIN,api-feedback.mypikpak.net
 DOMAIN,api-feedback.pikpak.me
+DOMAIN,api-feedback.pikpakdrive.com
 
 DOMAIN,pay.mypikpak.com
 DOMAIN,pay.mypikpak.net
 DOMAIN,pay.pikpak.me
+DOMAIN,pay.pikpakdrive.com
 
 DOMAIN,pay-gateway.mypikpak.com
 DOMAIN,pay-gateway.mypikpak.net
 DOMAIN,pay-gateway.pikpak.me
+DOMAIN,pay-gateway.pikpakdrive.com
 
 DOMAIN,feedback.mypikpak.com
 DOMAIN,feedback.mypikpak.net
 DOMAIN,feedback.pikpak.me
+DOMAIN,feedback.pikpakdrive.com
 
 DOMAIN,toapp.mypikpak.com
 DOMAIN,toapp.mypikpak.net
 DOMAIN,toapp.pikpak.me
+DOMAIN,toapp.pikpakdrive.com
 
 DOMAIN,inapp.mypikpak.com
 
@@ -72,3 +77,5 @@ DOMAIN,hub5pnc.mypikpak.com
 DOMAIN,hub5pn.mypikpak.com
 
 DOMAIN,rcv5-gcm-sp.mypikpak.com
+
+DOMAIN,res-etl-ssl.mypikpak.com
