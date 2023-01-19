@@ -22,10 +22,20 @@
 #
 #IP-CIDR,147.139.180.89/32
 #DOMAIN,vod0039-aliyun17-vip-lixian.mypikpak.com
-#
+
 #IP-CIDR,47.241.212.52/32
 #IP-CIDR,47.241.183.16/32
 #IP-CIDR,8.219.42.61/32
+
+DOMAIN,mypikpak.com
+DOMAIN,mypikpak.net
+DOMAIN,pikpak.me
+DOMAIN,pikpakdrive.com
+
+DOMAIN,api-drive.mypikpak.com
+DOMAIN,api-drive.mypikpak.net
+DOMAIN,api-drive.pikpak.me
+DOMAIN,api-drive.pikpakdrive.com
 
 DOMAIN,api-audit.mypikpak.com
 
