@@ -12,3 +12,8 @@
 #PROCESS-NAME,进程名称匹配
 #RULE-SET,Rule Provider 规则匹配
 #MATCH,全匹配（一般放在最后）
+
+DOMAIN,api-drive.mypikpak.com
+DOMAIN,api-drive.mypikpak.net
+DOMAIN,api-drive.pikpak.me
+DOMAIN,api-drive.pikpakdrive.com
