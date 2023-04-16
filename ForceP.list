@@ -18,3 +18,5 @@ DOMAIN,access.mypikpak.net
 DOMAIN,access.pikpak.me
 DOMAIN,access.pikpakdrive.com
 IP-CIDR,161.117.181.246/32
+
+DOMAIN-SUFFIX,rentry.co
