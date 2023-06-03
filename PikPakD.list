@@ -36,36 +36,43 @@
 #DOMAIN,vod0043-hwyun02-vip-lixian.mypikpak.com
 
 # 新加坡 阿里云
-IP-CIDR,47.241.59.78/32
-DOMAIN,vod0393-aliyun18-vip-lixian.mypikpak.com
+#IP-CIDR,47.241.59.78/32
+#DOMAIN,vod0393-aliyun18-vip-lixian.mypikpak.com
 DOMAIN,dl-a10b-0393.mypikpak.com
 #
-IP-CIDR,161.117.80.120/32
-DOMAIN,vod0394-aliyun18-vip-lixian.mypikpak.com
+#IP-CIDR,161.117.80.120/32
+#DOMAIN,vod0394-aliyun18-vip-lixian.mypikpak.com
 DOMAIN,dl-a10b-0394.mypikpak.com
 #
-IP-CIDR,47.241.76.152/32
-DOMAIN,vod0395-aliyun18-vip-lixian.mypikpak.com
+#IP-CIDR,47.241.76.152/32
+#DOMAIN,vod0395-aliyun18-vip-lixian.mypikpak.com
 DOMAIN,dl-a10b-0395.mypikpak.com
 
 # 新加坡 阿里云 新加服务器
-IP-CIDR,8.219.99.21/32
+#IP-CIDR,8.219.99.21/32
 DOMAIN,dl-a10b-0480.mypikpak.com
 #
-IP-CIDR,8.219.190.227/32
+#IP-CIDR,8.219.190.227/32
 DOMAIN,dl-a10b-0481.mypikpak.com
 #
-IP-CIDR,8.219.123.57/32
+#IP-CIDR,8.219.123.57/32
 DOMAIN,dl-a10b-0482.mypikpak.com
 #
-IP-CIDR,8.219.134.32/32
+#IP-CIDR,8.219.134.32/32
 DOMAIN,dl-a10b-0483.mypikpak.com
 #
-IP-CIDR,8.219.86.232/32
+#IP-CIDR,8.219.86.232/32
 DOMAIN,dl-a10b-0484.mypikpak.com
 #
-IP-CIDR,8.219.86.232/32
+#IP-CIDR,8.219.86.232/32
 DOMAIN,dl-a10b-0469.mypikpak.com
 #
-IP-CIDR,8.219.86.232/32
+#IP-CIDR,8.219.86.232/32
 DOMAIN,dl-a10b-0470.mypikpak.com
+
+#
+DOMAIN,dl-a10b-0046.mypikpak.com
+DOMAIN,dl-a10b-0182.mypikpak.com
+DOMAIN,dl-a10b-0183.mypikpak.com
+DOMAIN,dl-a10b-0585.mypikpak.com
+DOMAIN,dl-a10b-0586.mypikpak.com
