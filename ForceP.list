@@ -13,11 +13,10 @@
 #RULE-SET,Rule Provider 规则匹配
 #MATCH,全匹配（一般放在最后）
 
-DOMAIN,access.mypikpak.com
-DOMAIN,access.mypikpak.net
-DOMAIN,access.pikpak.me
-DOMAIN,access.pikpakdrive.com
-IP-CIDR,161.117.181.246/32
+# Google Play Store 下载更新
+DOMAIN-SUFFIX,googleapis.cn
+DOMAIN-SUFFIX,googleapis.com
+DOMAIN-SUFFIX,xn--ngstr-lra8j.com
 
 DOMAIN-SUFFIX,rentry.co
 
@@ -27,7 +26,6 @@ DOMAIN-SUFFIX,bcbits.com
 
 DOMAIN-SUFFIX,riotpixels.com
 
-DOMAIN-SUFFIX,googleapis.cn
 
 DOMAIN-SUFFIX,chaos.com
 DOMAIN-SUFFIX,sketchup.com
