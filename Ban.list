@@ -37,3 +37,6 @@ DOMAIN-SUFFIX,btrace.qq.com
 DOMAIN-SUFFIX,astrategy.beacon.qq.com
 DOMAIN-SUFFIX,aeventlog.beacon.qq.com
 DOMAIN-SUFFIX,btrace.video.qq.com
+
+# 在线 PS
+DOMAIN,abtest-proxy.hlgdata.com
