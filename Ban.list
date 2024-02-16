@@ -40,3 +40,8 @@ DOMAIN-SUFFIX,btrace.video.qq.com
 
 # 在线 PS
 DOMAIN,abtest-proxy.hlgdata.com
+
+# IDM
+DOMAIN-SUFFIX,registeridm.com
+DOMAIN-SUFFIX,internetdownloadmanager.com
+DOMAIN-SUFFIX,tonec.com
