@@ -18,24 +18,34 @@ DOMAIN-SUFFIX,googleapis.cn
 DOMAIN-SUFFIX,googleapis.com
 DOMAIN-SUFFIX,xn--ngstr-lra8j.com
 
+# Rentry
 DOMAIN-SUFFIX,rentry.co
 
+# DeepL
 DOMAIN-SUFFIX,deepl.com
 
+# Bandcamp
 DOMAIN-SUFFIX,bcbits.com
 
+# Riotpixels
 DOMAIN-SUFFIX,riotpixels.com
 
+# Chaos
 DOMAIN-SUFFIX,chaos.com
 DOMAIN-SUFFIX,sketchup.com
 DOMAIN,lindalefiles.nyc3.digitaloceanspaces.com
 
+# Accuweather
 DOMAIN-SUFFIX,accuweather.com
 
+# Yopmail
 DOMAIN-KEYWORD,yopmail
 
+# India Porn
 DOMAIN-SUFFIX,fsiblog3.club
 
+# Sub
 DOMAIN-SUFFIX,sub.xeton.dev
 
+# Greasyfork
 DOMAIN-SUFFIX,greasyfork.org
