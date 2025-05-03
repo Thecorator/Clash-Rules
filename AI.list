@@ -1,0 +1,62 @@
+# 内容：自用
+
+#DOMAIN,完整域名匹配
+#DOMAIN-SUFFIX,后缀域名匹配
+#DOMAIN-KEYWORD,域名关键词匹配
+#IP-CIDR,IPV4 匹配
+#IP-CIDR6,IPV6 匹配
+#SRC-IP-CIDR,源 IP 段匹配
+#GEOIP,数据库（国家代码）匹配
+#DST-PORT,目标端口匹配
+#SRC-PORT,源端口匹配
+#PROCESS-NAME,进程名称匹配
+#RULE-SET,Rule Provider 规则匹配
+#MATCH,全匹配（一般放在最后）
+
+DOMAIN-KEYWORD,anthropic
+DOMAIN-KEYWORD,claude
+DOMAIN-KEYWORD,openai
+DOMAIN-KEYWORD,chatgpt
+DOMAIN,ai.google.dev
+DOMAIN,api.githubcopilot.com
+DOMAIN,api.groq.com
+DOMAIN,api.together.xyz
+DOMAIN,bard.google.com
+DOMAIN,console.groq.com
+DOMAIN,copilot-proxy.githubusercontent.com
+DOMAIN,gemini.google.com
+DOMAIN,generativelanguage.googleapis.com
+DOMAIN,sydney.bing.com
+DOMAIN-SUFFIX,ai.azure.com
+DOMAIN-SUFFIX,anthropic.com
+DOMAIN-SUFFIX,auth0.com
+DOMAIN-SUFFIX,bard.google.com
+DOMAIN-SUFFIX,chatgpt.com
+DOMAIN-SUFFIX,claude.ai
+DOMAIN-SUFFIX,client-api.arkoselabs.com
+DOMAIN-SUFFIX,copilot.cloud.microsoft
+DOMAIN-SUFFIX,copilot.microsoft.com
+DOMAIN-SUFFIX,events.statsigapi.net
+DOMAIN-SUFFIX,featuregates.org
+DOMAIN-SUFFIX,gemini.google.com
+DOMAIN-SUFFIX,grazie.ai
+DOMAIN-SUFFIX,grazie.aws.intellij.net
+DOMAIN-SUFFIX,identrust.com
+DOMAIN-SUFFIX,intercom.io
+DOMAIN-SUFFIX,intercomcdn.com
+DOMAIN-SUFFIX,makersuite.google.com
+DOMAIN-SUFFIX,meta.ai
+DOMAIN-SUFFIX,mistral.ai
+DOMAIN-SUFFIX,oaistatic.com
+DOMAIN-SUFFIX,oaiusercontent.com
+DOMAIN-SUFFIX,openai.com
+DOMAIN-SUFFIX,openaiapi-site.azureedge.net
+DOMAIN-SUFFIX,perplexity.ai
+DOMAIN-SUFFIX,sora.com
+DOMAIN-SUFFIX,ai.com
+DOMAIN-SUFFIX,cdn.auth0.com
+DOMAIN-SUFFIX,opendns.com
+DOMAIN-SUFFIX,civitai.com
+DOMAIN-SUFFIX,sentry.io
+DOMAIN-SUFFIX,aistudio.google.com
+DOMAIN-SUFFIX,ciciai.com
