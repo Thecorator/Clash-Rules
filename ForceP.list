@@ -27,6 +27,11 @@ DOMAIN-SUFFIX,deepl.com
 # Bandcamp
 DOMAIN-SUFFIX,bcbits.com
 
+# SoundCloud
+DOMAIN-SUFFIX,soundcloud.com
+DOMAIN-SUFFIX,soundcloud.cloud
+DOMAIN-SUFFIX,sndcdn.com
+
 # Riotpixels
 DOMAIN-SUFFIX,riotpixels.com
 
