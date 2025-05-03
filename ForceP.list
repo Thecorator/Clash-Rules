@@ -49,3 +49,26 @@ DOMAIN-SUFFIX,sub.xeton.dev
 
 # Greasyfork
 DOMAIN-SUFFIX,greasyfork.org
+
+# 微软网络地球图标
+DOMAIN-SUFFIX,msftconnecttest.com
+
+# IP Widget
+DOMAIN-SUFFIX,ip-widget.net
+DOMAIN-SUFFIX,ipwidget.ithiess.de
+DOMAIN-SUFFIX,dieterthiess.de
+
+# Sehuatang
+DOMAIN-KEYWORD,sehuatang
+
+# Kinh
+DOMAIN-KEYWORD,kinh
+
+# Crowdin
+DOMAIN-SUFFIX,crowdin.com
+
+# F-Droid
+DOMAIN-SUFFIX,f-droid.org
+
+# Cloudflare Workers
+DOMAIN-SUFFIX,workers.dev
