@@ -13,19 +13,6 @@
 #RULE-SET,Rule Provider 规则匹配
 #MATCH,全匹配（一般放在最后）
 
-# 可疑 ip
-IP-CIDR,113.96.202.106/32
-IP-CIDR,113.137.44.145/32
-IP-CIDR,112.124.118.42/32
-IP-CIDR,139.155.24.195/32
-IP-CIDR,220.181.106.151/32
-IP-CIDR,110.75.232.99/32
-
-#DOMAIN-SUFFIX,cloudfs.info
-#DOMAIN-SUFFIX,clouddrive2.com
-#DOMAIN-SUFFIX,zhenyunpan.com
-#IP-CIDR,47.100.96.71/32
-
 # 友盟
 DOMAIN-SUFFIX,umengcloud.com
 
@@ -37,9 +24,6 @@ DOMAIN-SUFFIX,btrace.qq.com
 DOMAIN-SUFFIX,astrategy.beacon.qq.com
 DOMAIN-SUFFIX,aeventlog.beacon.qq.com
 DOMAIN-SUFFIX,btrace.video.qq.com
-
-# 在线 PS
-DOMAIN,abtest-proxy.hlgdata.com
 
 # IDM
 DOMAIN-SUFFIX,registeridm.com
