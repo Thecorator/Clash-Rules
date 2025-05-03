@@ -58,5 +58,7 @@ DOMAIN-SUFFIX,cdn.auth0.com
 DOMAIN-SUFFIX,opendns.com
 DOMAIN-SUFFIX,civitai.com
 DOMAIN-SUFFIX,sentry.io
+DOMAIN-SUFFIX,stripe.com
 DOMAIN-SUFFIX,aistudio.google.com
 DOMAIN-SUFFIX,ciciai.com
+DOMAIN-SUFFIX,challenges.cloudflare.com
