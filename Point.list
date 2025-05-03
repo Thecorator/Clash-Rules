@@ -12,21 +12,3 @@
 #PROCESS-NAME,进程名称匹配
 #RULE-SET,Rule Provider 规则匹配
 #MATCH,全匹配（一般放在最后）
-
-# 微软网络地球图标
-DOMAIN-SUFFIX,msftconnecttest.com
-
-# IP Widget
-DOMAIN-SUFFIX,ip-widget.net
-DOMAIN-SUFFIX,ipwidget.ithiess.de
-DOMAIN-SUFFIX,dieterthiess.de
-
-DOMAIN-KEYWORD,sehuatang
-
-DOMAIN-KEYWORD,kinh
-
-DOMAIN-SUFFIX,crowdin.com
-
-DOMAIN-SUFFIX,f-droid.org
-
-DOMAIN-SUFFIX,workers.dev
