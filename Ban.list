@@ -12,20 +12,3 @@
 #PROCESS-NAME,进程名称匹配
 #RULE-SET,Rule Provider 规则匹配
 #MATCH,全匹配（一般放在最后）
-
-# 友盟
-DOMAIN-SUFFIX,umengcloud.com
-
-# 腾讯广告
-DOMAIN-SUFFIX,oth.eve.mdt.qq.com.com
-DOMAIN-SUFFIX,oth.eve.mdt.qq.com
-DOMAIN-SUFFIX,oth.str.mdt.qq.com
-DOMAIN-SUFFIX,btrace.qq.com
-DOMAIN-SUFFIX,astrategy.beacon.qq.com
-DOMAIN-SUFFIX,aeventlog.beacon.qq.com
-DOMAIN-SUFFIX,btrace.video.qq.com
-
-# IDM
-DOMAIN-SUFFIX,registeridm.com
-DOMAIN-SUFFIX,internetdownloadmanager.com
-DOMAIN-SUFFIX,tonec.com
