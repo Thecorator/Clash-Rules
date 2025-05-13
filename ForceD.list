@@ -135,6 +135,7 @@ DOMAIN-SUFFIX,tplogin.cn
 DOMAIN-SUFFIX,wifi.cmcc
 
 # Google mtalk
+DOMAIN,mtalk.google.com
 DOMAIN,alt1-mtalk.google.com
 DOMAIN,alt2-mtalk.google.com
 DOMAIN,alt3-mtalk.google.com
@@ -143,33 +144,6 @@ DOMAIN,alt5-mtalk.google.com
 DOMAIN,alt6-mtalk.google.com
 DOMAIN,alt7-mtalk.google.com
 DOMAIN,alt8-mtalk.google.com
-DOMAIN,mtalk.google.com
-IP-CIDR,64.233.177.188/32,no-resolve
-IP-CIDR,64.233.186.188/32,no-resolve
-IP-CIDR,64.233.187.188/32,no-resolve
-IP-CIDR,64.233.188.188/32,no-resolve
-IP-CIDR,64.233.189.188/32,no-resolve
-IP-CIDR,74.125.23.188/32,no-resolve
-IP-CIDR,74.125.24.188/32,no-resolve
-IP-CIDR,74.125.28.188/32,no-resolve
-IP-CIDR,74.125.127.188/32,no-resolve
-IP-CIDR,74.125.137.188/32,no-resolve
-IP-CIDR,74.125.203.188/32,no-resolve
-IP-CIDR,74.125.204.188/32,no-resolve
-IP-CIDR,74.125.206.188/32,no-resolve
-IP-CIDR,108.177.125.188/32,no-resolve
-IP-CIDR,142.250.4.188/32,no-resolve
-IP-CIDR,142.250.10.188/32,no-resolve
-IP-CIDR,142.250.31.188/32,no-resolve
-IP-CIDR,142.250.96.188/32,no-resolve
-IP-CIDR,172.217.194.188/32,no-resolve
-IP-CIDR,172.217.218.188/32,no-resolve
-IP-CIDR,172.217.219.188/32,no-resolve
-IP-CIDR,172.253.63.188/32,no-resolve
-IP-CIDR,172.253.122.188/32,no-resolve
-IP-CIDR,173.194.175.188/32,no-resolve
-IP-CIDR,173.194.218.188/32,no-resolve
-IP-CIDR,209.85.233.188/32,no-resolve
 
 # 115
 DOMAIN-SUFFIX,115.com
@@ -193,7 +167,7 @@ DOMAIN,pp.myapp.com
 # Libvio
 DOMAIN-KEYWORD,libvio
 
-# Steam
+# Steam CN
 DOMAIN,csgo.wmsj.cn
 DOMAIN,dl.steam.clngaa.com
 DOMAIN,dl.steam.ksyna.com
@@ -214,26 +188,3 @@ DOMAIN-SUFFIX,steamusercontent.com
 # Steam CDN
 DOMAIN-SUFFIX,cm.steampowered.com
 DOMAIN-SUFFIX,steamserver.net
-IP-CIDR,45.121.184.0/24,no-resolve
-IP-CIDR,103.10.124.0/23,no-resolve
-IP-CIDR,103.28.54.0/24,no-resolve
-IP-CIDR,146.66.152.0/24,no-resolve
-IP-CIDR,146.66.155.0/24,no-resolve
-IP-CIDR,153.254.86.0/24,no-resolve
-IP-CIDR,155.133.224.0/22,no-resolve
-IP-CIDR,155.133.230.0/24,no-resolve
-IP-CIDR,155.133.232.0/23,no-resolve
-IP-CIDR,155.133.234.0/24,no-resolve
-IP-CIDR,155.133.236.0/22,no-resolve
-IP-CIDR,155.133.240.0/23,no-resolve
-IP-CIDR,155.133.244.0/23,no-resolve
-IP-CIDR,155.133.246.0/24,no-resolve
-IP-CIDR,155.133.248.0/21,no-resolve
-IP-CIDR,162.254.192.0/21,no-resolve
-IP-CIDR,185.25.182.0/23,no-resolve
-IP-CIDR,190.217.32.0/22,no-resolve
-IP-CIDR,192.69.96.0/22,no-resolve
-IP-CIDR,205.196.6.0/24,no-resolve
-IP-CIDR,208.64.200.0/22,no-resolve
-IP-CIDR,208.78.164.0/22,no-resolve
-IP-CIDR,205.185.194.0/24,no-resolve
