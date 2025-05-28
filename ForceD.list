@@ -188,6 +188,3 @@ DOMAIN-SUFFIX,steamusercontent.com
 # Steam CDN
 DOMAIN-SUFFIX,cm.steampowered.com
 DOMAIN-SUFFIX,steamserver.net
-
-# MIUI 天气
-DOMAIN,wtradv.market.xiaomi.com
