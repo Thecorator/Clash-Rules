@@ -326,13 +326,6 @@ rule-providers:
     interval: 86400
     format: text
     type: http
-  BanEasyPrivacy:
-    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyPrivacy.list
-    path: ./ruleset/BanEasyPrivacy.list
-    behavior: classical
-    interval: 86400
-    format: text
-    type: http
   ForceD:
     url: https://raw.githubusercontent.com/Thecorator/Clash-Rules/main/ForceD.list
     path: ./ruleset/ForceD.list
