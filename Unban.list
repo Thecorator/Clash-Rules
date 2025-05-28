@@ -88,3 +88,6 @@ DOMAIN,msg.umengcloud.com
 
 # Xiaomi
 DOMAIN,tracking.miui.com
+
+# 小米天气
+DOMAIN,wtradv.market.xiaomi.com
