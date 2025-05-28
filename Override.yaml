@@ -50,8 +50,6 @@ proxy-groups:
       - 🇰🇷
       - DIRECT
       - REJECT
-
-
   - name: ♻️ Url-Test
     type: url-test
     include-all: true
@@ -67,8 +65,6 @@ proxy-groups:
     include-all: true
     interval: 300
     tolerance: 50
-
-
   - name: 💪 ForceD
     include-all: true
     type: select
@@ -97,8 +93,6 @@ proxy-groups:
       - ✒️ Proxy
       - DIRECT
       - REJECT
-
-
   - name: 💬 AI
     include-all: true
     type: select
@@ -106,8 +100,6 @@ proxy-groups:
       - 🧿 Point
       - DIRECT
       - REJECT
-
-
   - name: 📢 Google
     include-all: true
     type: select
@@ -150,8 +142,6 @@ proxy-groups:
       - ✒️ Proxy
       - DIRECT
       - REJECT
-
-
   - name: 🎮 Game
     include-all: true
     type: select
@@ -159,8 +149,6 @@ proxy-groups:
       - DIRECT
       - ✒️ Proxy
       - REJECT
-
-
   - name: 📺 BilibiliHMT
     include-all: true
     type: select
@@ -196,8 +184,6 @@ proxy-groups:
       - 🇯🇵
       - 🇰🇷
       - REJECT
-
-
   - name: 🧲 BTD
     include-all: true
     type: select
@@ -226,8 +212,6 @@ proxy-groups:
       - ✒️ Proxy
       - DIRECT
       - REJECT
-
-
   - name: 🛑 AD
     include-all: true
     type: select
@@ -256,8 +240,6 @@ proxy-groups:
       - REJECT
       - DIRECT
       - ✒️ Proxy
-
-
   - name: 🇺🇸
     include-all: true
     filter: (?i)🇺🇸|美|US|USA|United.*States
@@ -294,8 +276,6 @@ proxy-groups:
     type: url-test
     interval: 300
     tolerance: 50
-
-
 rule-providers:
   Ban:
     url: https://raw.githubusercontent.com/Thecorator/Clash-Rules/main/Ban.list
@@ -353,8 +333,6 @@ rule-providers:
     interval: 86400
     format: text
     type: http
-
-
   ForceD:
     url: https://raw.githubusercontent.com/Thecorator/Clash-Rules/main/ForceD.list
     path: ./ruleset/ForceD.list
@@ -390,8 +368,6 @@ rule-providers:
     interval: 86400
     format: text
     type: http
-
-
   AI:
     url: https://raw.githubusercontent.com/Thecorator/Clash-Rules/main/AI.list
     path: ./ruleset/AI.list
@@ -427,8 +403,6 @@ rule-providers:
     interval: 86400
     format: text
     type: http
-
-
   GoogleCN:
     url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/GoogleCN.list
     path: ./ruleset/GoogleCN.list
@@ -450,8 +424,6 @@ rule-providers:
     interval: 86400
     format: text
     type: http
-
-
   Epic:
     url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Epic.list
     path: ./ruleset/Epic.list
@@ -487,8 +459,6 @@ rule-providers:
     interval: 86400
     format: text
     type: http
-
-
   BilibiliHMT:
     url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/BilibiliHMT.list
     path: ./ruleset/BilibiliHMT.list
@@ -496,8 +466,6 @@ rule-providers:
     interval: 86400
     format: text
     type: http
-
-
   YouTube:
     url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/YouTube.list
     path: ./ruleset/YouTube.list
@@ -554,8 +522,6 @@ rule-providers:
     interval: 86400
     format: text
     type: http
-
-
   ChinaMedia:
     url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaMedia.list
     path: ./ruleset/ChinaMedia.list
@@ -570,8 +536,6 @@ rule-providers:
     interval: 86400
     format: text
     type: http
-
-
   ProxyGFWlist:
     url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list
     path: ./ruleset/ProxyGFWlist.list
@@ -607,8 +571,6 @@ rule-providers:
     interval: 86400
     format: text
     type: http
-
-
 rules:
   - "RULE-SET,Ban,⛔ Ban"
   - "RULE-SET,Unban,🎯 Driect"
@@ -617,31 +579,25 @@ rules:
   - "RULE-SET,BanEasyList,🆎 AdBlock"
   - "RULE-SET,BanEasyListChina,🆎 AdBlock"
   - "RULE-SET,BanEasyPrivacy,🛡️ Privacy"
-
   - "RULE-SET,ForceD,💪 ForceD"
   - "RULE-SET,ForceP,💪 ForceP"
   - "RULE-SET,Point,🧿 Point"
   - "RULE-SET,Special,💫 Special"
   - "RULE-SET,Temp,🚧 Temp"
-
   - "RULE-SET,AI,💬 AI"
   - "RULE-SET,BTD,🧲 BTD"
   - "RULE-SET,BTP,🧲 BTP"
   - "RULE-SET,PikPakD,☁️ PikPakD"
   - "RULE-SET,PikPakP,☁️ PikPakP"
-
   - "RULE-SET,GoogleCN,🎯 Driect"
   - "RULE-SET,GoogleFCM,🎯 Driect"
   - "RULE-SET,SteamCN,🎯 Driect"
-
   - "RULE-SET,Epic,🎮 Game"
   - "RULE-SET,Origin,🎮 Game"
   - "RULE-SET,Sony,🎮 Game"
   - "RULE-SET,Nintendo,🎮 Game"
   - "RULE-SET,Steam,🎮 Game"
-
   - "RULE-SET,BilibiliHMT,📺 BilibiliHMT"
-
   - "RULE-SET,YouTube,📹 Youtube"
   - "RULE-SET,GoogleCNProxyIP,📢 Google"
   - "RULE-SET,Google,📢 Google"
@@ -650,10 +606,8 @@ rules:
   - "RULE-SET,Apple,🍎 Apple"
   - "RULE-SET,Telegram,📠 Telegram"
   - "RULE-SET,TelegramAlt,📠 Telegram"
-
   - "RULE-SET,ChinaMedia,🌏 MediaD"
   - "RULE-SET,ProxyMedia,🌏 MediaP"
-
   - "RULE-SET,ProxyGFWlist,✒️ Proxy"
   - "RULE-SET,ChinaIp,🎯 Driect"
   - "RULE-SET,ChinaDomain,🎯 Driect"
