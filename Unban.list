@@ -58,6 +58,10 @@
 ##仅支持关于「目标IP」的规则
 ##将「目标IP」匹配转为「来源IP」匹配
 
+IP-CIDR,148.135.127.60/32,no-resolve
+IP-CIDR,107.172.50.133/32,no-resolve
+IP-CIDR,107.174.186.73/32,no-resolve
+
 # 不应该被广告链接的网站
 
 # Getui
