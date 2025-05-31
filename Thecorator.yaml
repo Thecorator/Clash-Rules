@@ -5,7 +5,7 @@ geox-url:
   mmdb: "https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/country.mmdb"
   asn: "https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/GeoLite2-ASN.mmdb"
 ##### END geox-url #####
-
+##### ---------------------------------------------------------------------------------------------------- #####
 ##### BEGIN proxy-groups #####
 proxy-groups:
   ### BEGIN DEFAULT ###
