@@ -58,6 +58,7 @@ proxy-groups:
     include-all: true
     type: select
     proxies:
+      - 🔑 Default
       - 🇺🇸
       - 🇭🇰
       - 🇨🇳
@@ -70,6 +71,7 @@ proxy-groups:
     include-all: true
     type: select
     proxies:
+      - 🔑 Default
       - 🇺🇸
       - 🇭🇰
       - 🇨🇳
@@ -176,6 +178,13 @@ proxy-groups:
       - DIRECT
       - REJECT
   - name: 📹 Youtube
+    include-all: true
+    type: select
+    proxies:
+      - 🧬 Proxy
+      - DIRECT
+      - REJECT
+  - name: 👾 Github
     include-all: true
     type: select
     proxies:
@@ -646,6 +655,7 @@ rules:
   - "RULE-SET,Google,🖼️ Google"
   - "GEOSITE,google,🖼️ Google"
   - "GEOIP,google,🖼️ Google"
+  - "GEOSITE,github,👾 Github"
   - "RULE-SET,OneDrive,☁️ OneDrive"
   - "GEOSITE,onedrive,☁️ OneDrive"
   - "RULE-SET,Microsoft,🌆 Microsoft"
