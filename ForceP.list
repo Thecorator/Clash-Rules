@@ -58,6 +58,14 @@
 ##仅支持关于「目标IP」的规则
 ##将「目标IP」匹配转为「来源IP」匹配
 
+# DNS
+DOMAIN,dns.google
+DOMAIN,cloudflare-dns.com
+DOMAIN,dns.quad9.net
+IP-CIDR,8.8.8.8/32,no-resolve
+IP-CIDR,1.1.1.1/32,no-resolve
+IP-CIDR,9.9.9.9/32,no-resolve
+
 # Google Play Store 下载更新
 DOMAIN-SUFFIX,googleapis.cn
 DOMAIN-SUFFIX,googleapis.com
