@@ -135,12 +135,12 @@ DOMAIN-SUFFIX,tplogin.cn
 DOMAIN-SUFFIX,wifi.cmcc
 
 # DNS
-DOMAIN,dns.alidns.com
-DOMAIN,doh.pub
-DOMAIN,sm2.doh.pub
-IP-CIDR,223.5.5.5/32,no-resolve
-IP-CIDR,119.29.29.29/32,no-resolve
-IP-CIDR,114.114.114.114/32,no-resolve
+#DOMAIN,dns.alidns.com
+#DOMAIN,doh.pub
+#DOMAIN,sm2.doh.pub
+#IP-CIDR,223.5.5.5/32,no-resolve
+#IP-CIDR,119.29.29.29/32,no-resolve
+#IP-CIDR,114.114.114.114/32,no-resolve
 
 # Google mtalk
 DOMAIN,mtalk.google.com
