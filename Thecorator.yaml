@@ -634,14 +634,16 @@ rules:
   - "RULE-SET,AI,💬 AI"
   - "GEOSITE,category-ai-!cn,💬 AI"
   - "GEOSITE,openai,💬 AI"
-  - "GEOSITE,bing,💬 AI"
   - "GEOSITE,anthropic,💬 AI"
+  - "GEOSITE,xai,💬 AI"
+  - "GEOSITE,bing,💬 AI"
   - "GEOSITE,google-deepmind,💬 AI"
   - "GEOSITE,google-gemini,💬 AI"
+  - "GEOSITE,apple-intelligence,💬 AI"
   - "GEOSITE,groq,💬 AI"
   - "GEOSITE,perplexity,💬 AI"
   - "GEOSITE,poe,💬 AI"
-  - "GEOSITE,xai,💬 AI"
+
   - "GEOSITE,cursor,💬 AI"
 
   - "RULE-SET,GoogleCN,💠 Driect"
