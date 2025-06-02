@@ -170,14 +170,14 @@ proxy-groups:
       - 💡 Point
       - DIRECT
       - REJECT
-  - name: 🖼️ Google
+  - name: 📹 Youtube
     include-all: true
     type: select
     proxies:
       - 🧬 Proxy
       - DIRECT
       - REJECT
-  - name: 📹 Youtube
+  - name: 🖼️ Google
     include-all: true
     type: select
     proxies:
@@ -191,14 +191,14 @@ proxy-groups:
       - 🧬 Proxy
       - DIRECT
       - REJECT
-  - name: 🌆 Microsoft
+  - name: ☁️ OneDrive
     include-all: true
     type: select
     proxies:
       - DIRECT
       - 🧬 Proxy
       - REJECT
-  - name: ☁️ OneDrive
+  - name: 🌆 Microsoft
     include-all: true
     type: select
     proxies:
@@ -655,7 +655,7 @@ rules:
   - "RULE-SET,GoogleCNProxyIP,🖼️ Google"
   - "RULE-SET,Google,🖼️ Google"
   - "GEOSITE,google,🖼️ Google"
-  - "GEOIP,google,🖼️ Google"
+  - "GEOIP,google,🖼️ Google,no-resolve"
   - "GEOSITE,github,👾 Github"
   - "RULE-SET,OneDrive,☁️ OneDrive"
   - "GEOSITE,onedrive,☁️ OneDrive"
@@ -665,18 +665,18 @@ rules:
   - "GEOSITE,apple,🍎 Apple"
   - "RULE-SET,Telegram,📟 ProxyIM"
   - "RULE-SET,TelegramAlt,📟 ProxyIM"
+  - "GEOIP,telegram,📟 ProxyIM,no-resolve"
   - "GEOSITE,category-communication,📟 ProxyIM"
-  - "GEOIP,telegram,📟 ProxyIM"
   - "GEOSITE,category-social-media-!cn,🌌 Social"
-  - "GEOIP,twitter,🌌 Social"
-  - "GEOIP,facebook,🌌 Social"
+  - "GEOIP,twitter,🌌 Social,no-resolve"
+  - "GEOIP,facebook,🌌 Social,no-resolve"
   - "GEOSITE,category-speedtest,⚡ SpeedTest"
 
   - "RULE-SET,BilibiliHMT,📺 BilibiliHMT"
 
   - "GEOSITE,category-entertainment,🎥 Media"
   - "GEOSITE,netflix,🎥 Media"
-  - "GEOIP,netflix,🎥 Media"
+  - "GEOIP,netflix,🎥 Media,no-resolve"
   - "GEOSITE,disney,🎥 Media"
   - "GEOSITE,hbo,🎥 Media"
   - "GEOSITE,primevideo,🎥 Media"
@@ -685,6 +685,6 @@ rules:
   - "GEOSITE,gfw,🧬 Proxy"
   - "GEOSITE,geolocation-!cn,🧬 Proxy"
   - "GEOSITE,CN,💠 Driect"
-  - "GEOIP,CN,💠 Driect"
+  - "GEOIP,CN,💠 Driect,no-resolve"
   - "MATCH,🐟 Final"
 ##### END rules #####
