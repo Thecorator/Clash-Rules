@@ -643,7 +643,6 @@ rules:
   - "GEOSITE,groq,💬 AI"
   - "GEOSITE,perplexity,💬 AI"
   - "GEOSITE,poe,💬 AI"
-
   - "GEOSITE,cursor,💬 AI"
 
   - "RULE-SET,GoogleCN,💠 Driect"
