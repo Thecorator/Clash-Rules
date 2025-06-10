@@ -94,3 +94,8 @@ IP-CIDR,148.135.127.60/32,no-resolve
 IP-CIDR,107.172.50.133/32,no-resolve
 IP-CIDR,209.54.107.45/32,no-resolve
 IP-CIDR,31.58.152.182/32,no-resolve
+
+# Pear
+DOMAIN-SUFFIX,akrineon.top
+DOMAIN-SUFFIX,kansensha.top
+DOMAIN-SUFFIX,sinego.top
