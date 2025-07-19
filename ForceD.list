@@ -185,3 +185,8 @@ DOMAIN-SUFFIX,steamusercontent.com
 # Steam CDN
 DOMAIN-SUFFIX,cm.steampowered.com
 DOMAIN-SUFFIX,steamserver.net
+
+# My Video
+DOMAIN-SUFFIX,girigirilove.com
+DOMAIN-SUFFIX,auete.cc
+DOMAIN-KEYWORD,dytt-
