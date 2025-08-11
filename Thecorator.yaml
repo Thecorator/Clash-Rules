@@ -594,6 +594,9 @@ rule-providers:
 ##### ---------------------------------------------------------------------------------------------------- #####
 ##### BEGIN rules #####
 rules:
+  - "AND,(AND,(DST-PORT,443),(NETWORK,UDP)),(NOT,((GEOSITE,cn))),REJECT"
+  - "AND,(AND,(DST-PORT,443),(NETWORK,UDP)),(NOT,((GEOIP,CN))),REJECT"
+
   - "RULE-SET,Ban,⛔ Ban"
   - "RULE-SET,Unban,⭕ Unban"
 
