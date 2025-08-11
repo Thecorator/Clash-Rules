@@ -115,9 +115,6 @@ DOMAIN-KEYWORD,yopmail
 # India Porn
 DOMAIN-SUFFIX,fsiblog3.club
 
-# Sub
-DOMAIN-SUFFIX,sub.xeton.dev
-
 # Greasyfork
 DOMAIN-SUFFIX,greasyfork.org
 
@@ -143,3 +140,6 @@ DOMAIN-SUFFIX,f-droid.org
 
 # Cloudflare Workers
 DOMAIN-SUFFIX,workers.dev
+
+# Pinterest
+DOMAIN-SUFFIX,pinimg.com
