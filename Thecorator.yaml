@@ -1,3 +1,55 @@
+##### BEGIN dns #####
+dns:
+  enable: true
+  ipv6: false
+  respect-rules: true
+  default-nameserver:
+    - 223.5.5.5
+    - 119.29.29.29
+    - 114.114.114.114
+  nameserver:
+    - 8.8.8.8
+    - 1.1.1.1
+    - 9.9.9.9
+    - tls://dns.google
+    - tls://one.one.one.one
+    - tls://dns.quad9.net
+    - https://dns.google/dns-query
+    - https://cloudflare-dns.com/dns-query
+    - https://dns.quad9.net/dns-query
+  fallback:
+    - 8.8.8.8
+    - 1.1.1.1
+    - 9.9.9.9
+    - tls://dns.google
+    - tls://one.one.one.one
+    - tls://dns.quad9.net
+    - https://dns.google/dns-query
+    - https://cloudflare-dns.com/dns-query
+    - https://dns.quad9.net/dns-query
+  proxy-server-nameserver:
+    - https://dns.alidns.com/dns-query
+    - https://doh.pub/dns-query
+    - https://sm2.doh.pub/dns-query
+  direct-nameserver:
+    - https://dns.alidns.com/dns-query
+    - https://doh.pub/dns-query
+    - https://sm2.doh.pub/dns-query
+  nameserver-policy:
+    geosite:cn:
+    - https://dns.alidns.com/dns-query
+    - https://doh.pub/dns-query
+    - https://sm2.doh.pub/dns-query
+    geosite:private:
+    - https://dns.alidns.com/dns-query
+    - https://doh.pub/dns-query
+    - https://sm2.doh.pub/dns-query
+    geosite:geolocation-!cn:
+    - https://dns.google/dns-query
+    - https://cloudflare-dns.com/dns-query
+    - https://dns.quad9.net/dns-query
+##### END dns #####
+##### ---------------------------------------------------------------------------------------------------- #####
 ##### BEGIN geox-url #####
 geox-url:
   geoip: "https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/geoip.dat"
