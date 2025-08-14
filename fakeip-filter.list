@@ -1,0 +1,159 @@
+# LAN
++.localhost
++.local
++.localdomain
++.domain
++.host
++.example
++.example.com
++.example.net
++.example.org
++.test
++.invalid
++.lan
++.home
++.internal
++.intranet
++.private
++.corp
++.onion
++.alt
++.direct
+*.home.arpa
+
+# NTP
+time.*.com
+time.*.gov
+time.*.edu.cn
+time.*.apple.com
+time-ios.apple.com
+time1.*.com
+time2.*.com
+time3.*.com
+time4.*.com
+time5.*.com
+time6.*.com
+time7.*.com
+ntp.*.com
+ntp1.*.com
+ntp2.*.com
+ntp3.*.com
+ntp4.*.com
+ntp5.*.com
+ntp6.*.com
+ntp7.*.com
+*.time.edu.cn
+*.ntp.org.cn
++.pool.ntp.org
+
+# 网易云音乐
+music.163.com
+*.music.163.com
+*.126.net
+
+# 百度音乐
+musicapi.taihe.com
+music.taihe.com
+
+# 酷狗音乐
+songsearch.kugou.com
+trackercdn.kugou.com
+
+# 酷我音乐
+*.kuwo.cn
+
+# JOOX音乐
+api-jooxtt.sanook.com
+api.joox.com
+joox.com
+
+# QQ音乐
+y.qq.com
+*.y.qq.com
+streamoc.music.tc.qq.com
+mobileoc.music.tc.qq.com
+isure.stream.qqmusic.qq.com
+dl.stream.qqmusic.qq.com
+aqqmusic.tc.qq.com
+amobile.music.tc.qq.com
+
+# 虾米音乐
+*.xiami.com
+
+# 咪咕音乐
+*.music.migu.cn
+music.migu.cn
+
+# msftconnecttest
++.msftconnecttest.com
++.msftncsi.com
+
+# Tencent
+localhost.*.qq.com
+localhost.*.weixin.qq.com
+
+# Steam
++.steamcontent.com
+
+# Nintendo Switch
++.srv.nintendo.net
+*.n.n.srv.nintendo.net
++.cdn.nintendo.net
+
+# Sony PlayStation
++.stun.playstation.net
+
+# Xbox
+xbox.*.*.microsoft.com
+*.*.xboxlive.com
+xbox.*.microsoft.com
+xnotify.xboxlive.com
+
+# Wotgame
++.battle.net
++.battlenet.com.cn
++.wotgame.cn
++.wggames.cn
++.wowsgame.cn
++.wargaming.net
+
+# Golang
+proxy.golang.org
+
+# STUN
+stun.*.*
+stun.*.*.*
++.stun.*.*
++.stun.*.*.*
++.stun.*.*.*.*
++.stun.*.*.*.*.*
+
+# Apple Software Update Service
+mesu.apple.com
+swscan.apple.com
+swquery.apple.com
+swdownload.apple.com
+swcdn.apple.com
+swdist.apple.com
+
+# Google
+lens.l.google.com
+stun.l.google.com
+na.b.g-tun.com
+
+# Netflix
++.nflxvideo.net
+
+# Bilibili
+*.mcdn.bilivideo.cn
+
+# Disney Plus
++.media.dssott.com
+
+# Xiaomi
++.market.xiaomi.com
+Mijia Cloud
+
+#向日葵远程控制
++.oray.com
++.orayimg.com
