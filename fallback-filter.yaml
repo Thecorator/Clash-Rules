@@ -1,0 +1,10 @@
+payload:
+
+  - "+.google.com"
+  - "+.youtube.com"
+  - "+.ytimg.com"
+  - "+.googlevideo.com"
+  - "+.github.com"
+  - "+.githubusercontent.com"
+  - "+.msftconnecttest.com"
+  - "+.msftncsi.com"
