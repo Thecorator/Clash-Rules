@@ -1,54 +1,13 @@
-##### BEGIN dns #####
-dns:
-  enable: true
-  ipv6: false
-  respect-rules: true
-  default-nameserver:
-    - 223.5.5.5
-    - 119.29.29.29
-    - 114.114.114.114
-  nameserver:
-    - 8.8.8.8
-    - 1.1.1.1
-    - 9.9.9.9
-    - tls://dns.google
-    - tls://one.one.one.one
-    - tls://dns.quad9.net
-    - https://dns.google/dns-query
-    - https://cloudflare-dns.com/dns-query
-    - https://dns.quad9.net/dns-query
-  fallback:
-    - 8.8.8.8
-    - 1.1.1.1
-    - 9.9.9.9
-    - tls://dns.google
-    - tls://one.one.one.one
-    - tls://dns.quad9.net
-    - https://dns.google/dns-query
-    - https://cloudflare-dns.com/dns-query
-    - https://dns.quad9.net/dns-query
-  proxy-server-nameserver:
-    - https://dns.alidns.com/dns-query
-    - https://doh.pub/dns-query
-    - https://sm2.doh.pub/dns-query
-  direct-nameserver:
-    - https://dns.alidns.com/dns-query
-    - https://doh.pub/dns-query
-    - https://sm2.doh.pub/dns-query
-  nameserver-policy:
-    geosite:cn:
-    - https://dns.alidns.com/dns-query
-    - https://doh.pub/dns-query
-    - https://sm2.doh.pub/dns-query
-    geosite:private:
-    - https://dns.alidns.com/dns-query
-    - https://doh.pub/dns-query
-    - https://sm2.doh.pub/dns-query
-    geosite:geolocation-!cn:
-    - https://dns.google/dns-query
-    - https://cloudflare-dns.com/dns-query
-    - https://dns.quad9.net/dns-query
-##### END dns #####
+##### ---------------------------------------------------------------------------------------------------- #####
+##### BEGIN #####
+allow-lan: true
+mode: rule
+log-level: warning
+ipv6: false
+global-client-fingerprint: random
+unified-delay: true
+tcp-concurrent: true
+##### END #####
 ##### ---------------------------------------------------------------------------------------------------- #####
 ##### BEGIN geox-url #####
 geox-url:
@@ -56,6 +15,8 @@ geox-url:
   geosite: "https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/geosite.dat"
   mmdb: "https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/country.mmdb"
   asn: "https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/GeoLite2-ASN.mmdb"
+geo-auto-update: true
+geo-update-interval: 12
 ##### END geox-url #####
 ##### ---------------------------------------------------------------------------------------------------- #####
 ##### BEGIN proxy-groups #####
@@ -642,6 +603,21 @@ rule-providers:
     interval: 86400
     format: text
     type: http
+
+  fake-ip-filter:
+    url: https://raw.githubusercontent.com/Thecorator/Clash-Rules/main/fake-ip-filter.list
+    path: ./ruleset/fake-ip-filter.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  fallback-filter:
+    url: https://raw.githubusercontent.com/Thecorator/Clash-Rules/main/fallback-filter.list
+    path: ./ruleset/fallback-filter.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
 ##### END rule-providers #####
 ##### ---------------------------------------------------------------------------------------------------- #####
 ##### BEGIN rules #####
@@ -743,3 +719,106 @@ rules:
   - "GEOIP,CN,💠 Driect,no-resolve"
   - "MATCH,🐟 Final"
 ##### END rules #####
+##### ---------------------------------------------------------------------------------------------------- #####
+##### BEGIN dns #####
+dns:
+  enable: true
+  cache-algorithm: arc
+  prefer-h3: false
+  use-hosts: true
+  use-system-hosts: true
+  respect-rules: true
+  listen: 0.0.0.0:1053
+  ipv6: false
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  fake-ip-filter-mode: blacklist
+  fake-ip-filter:
+    - "rule-set:fake-ip-filter"
+    - "geosite:connectivity-check"
+    - "geosite:private"
+    - "geosite:category-games"
+  default-nameserver:
+    - 223.5.5.5
+    - 119.29.29.29
+    - 114.114.114.114
+  nameserver:
+    - 8.8.8.8
+    - 1.1.1.1
+    - 9.9.9.9
+    - tls://dns.google:853
+    - tls://one.one.one.one:853
+    - tls://dns.quad9.net:853
+    - https://dns.google/dns-query
+    - https://cloudflare-dns.com/dns-query
+    - https://dns.quad9.net/dns-query
+  fallback:
+    - 8.8.8.8
+    - 1.1.1.1
+    - 9.9.9.9
+    - tls://dns.google:853
+    - tls://one.one.one.one:853
+    - tls://dns.quad9.net:853
+    - https://dns.google/dns-query
+    - https://cloudflare-dns.com/dns-query
+    - https://dns.quad9.net/dns-query
+  fallback-filter:
+    geoip: true
+    geoip-code: CN
+    geosite:
+      - gfw
+    ipcidr:
+      - 0.0.0.0/8
+      - 10.0.0.0/8
+      - 100.64.0.0/10
+      - 127.0.0.0/8
+      - 169.254.0.0/16
+      - 172.16.0.0/12
+      - 192.0.0.0/24
+      - 192.0.2.0/24
+      - 192.88.99.0/24
+      - 192.168.0.0/16
+      - 198.18.0.0/15
+      - 198.51.100.0/24
+      - 203.0.113.0/24
+      - 224.0.0.0/4
+      - 233.252.0.0/24
+      - 240.0.0.0/4
+      - 255.255.255.255/32
+      - ::/128
+      - ::1/128
+      - ::ffff:0:0/96
+      - ::ffff:0:0:0/96
+      - 64:ff9b::/96
+      - 64:ff9b:1::/48
+      - 100::/64
+      - 2001::/32
+      - 2001:20::/28
+      - 2001:db8::/32
+      - 2002::/16
+      - 3fff::/20
+      - 5f00::/16
+      - fc00::/7
+      - fe80::/10
+      - ff00::/8
+    domain:
+      - "rule-set:fallback-filter"
+  proxy-server-nameserver:
+    - https://dns.alidns.com/dns-query
+    - https://doh.pub/dns-query
+    - https://sm2.doh.pub/dns-query
+  direct-nameserver:
+    - https://dns.alidns.com/dns-query
+    - https://doh.pub/dns-query
+    - https://sm2.doh.pub/dns-query
+  nameserver-policy:
+    "geosite:cn,private":
+      - https://dns.alidns.com/dns-query
+      - https://doh.pub/dns-query
+      - https://sm2.doh.pub/dns-query
+    "geosite:geolocation-!cn":
+      - https://dns.google/dns-query
+      - https://cloudflare-dns.com/dns-query
+      - https://dns.quad9.net/dns-query
+  direct-nameserver-follow-policy: false
+##### END dns #####
