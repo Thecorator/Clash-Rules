@@ -605,18 +605,16 @@ rule-providers:
     type: http
 
   fake-ip-filter:
-    url: https://raw.githubusercontent.com/Thecorator/Clash-Rules/main/fake-ip-filter.list
-    path: ./ruleset/fake-ip-filter.list
-    behavior: classical
+    url: https://raw.githubusercontent.com/Thecorator/Clash-Rules/main/fake-ip-filter.yaml
+    path: ./ruleset/fake-ip-filter.yaml
+    behavior: domain
     interval: 86400
-    format: text
     type: http
   fallback-filter:
-    url: https://raw.githubusercontent.com/Thecorator/Clash-Rules/main/fallback-filter.list
-    path: ./ruleset/fallback-filter.list
-    behavior: classical
+    url: https://raw.githubusercontent.com/Thecorator/Clash-Rules/main/fallback-filter.yaml
+    path: ./ruleset/fallback-filter.yaml
+    behavior: domain
     interval: 86400
-    format: text
     type: http
 ##### END rule-providers #####
 ##### ---------------------------------------------------------------------------------------------------- #####
