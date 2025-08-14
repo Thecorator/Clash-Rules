@@ -21,6 +21,14 @@
 +.direct
 *.home.arpa
 
+# STUN
+stun.*.*
+stun.*.*.*
++.stun.*.*
++.stun.*.*.*
++.stun.*.*.*.*
++.stun.*.*.*.*.*
+
 # NTP
 time.*.com
 time.*.gov
@@ -45,6 +53,65 @@ ntp7.*.com
 *.time.edu.cn
 *.ntp.org.cn
 +.pool.ntp.org
+
+# Google
+lens.l.google.com
+stun.l.google.com
+na.b.g-tun.com
+
+# Microsoft
++.msftconnecttest.com
++.msftncsi.com
+
+# Apple
+mesu.apple.com
+swscan.apple.com
+swquery.apple.com
+swdownload.apple.com
+swcdn.apple.com
+swdist.apple.com
+
+# Tencent
+localhost.*.qq.com
+localhost.*.weixin.qq.com
+
+# Xiaomi
++.market.xiaomi.com
+Mijia Cloud
+
+# Netflix
++.nflxvideo.net
+
+# Disney Plus
++.media.dssott.com
+
+# Bilibili
+*.mcdn.bilivideo.cn
+
+# Steam
++.steamcontent.com
+
+# Nintendo Switch
++.srv.nintendo.net
+*.n.n.srv.nintendo.net
++.cdn.nintendo.net
+
+# Sony PlayStation
++.stun.playstation.net
+
+# Xbox
+xbox.*.*.microsoft.com
+*.*.xboxlive.com
+xbox.*.microsoft.com
+xnotify.xboxlive.com
+
+# Wotgame
++.battle.net
++.battlenet.com.cn
++.wotgame.cn
++.wggames.cn
++.wowsgame.cn
++.wargaming.net
 
 # 网易云音乐
 music.163.com
@@ -84,76 +151,7 @@ amobile.music.tc.qq.com
 *.music.migu.cn
 music.migu.cn
 
-# msftconnecttest
-+.msftconnecttest.com
-+.msftncsi.com
-
-# Tencent
-localhost.*.qq.com
-localhost.*.weixin.qq.com
-
-# Steam
-+.steamcontent.com
-
-# Nintendo Switch
-+.srv.nintendo.net
-*.n.n.srv.nintendo.net
-+.cdn.nintendo.net
-
-# Sony PlayStation
-+.stun.playstation.net
-
-# Xbox
-xbox.*.*.microsoft.com
-*.*.xboxlive.com
-xbox.*.microsoft.com
-xnotify.xboxlive.com
-
-# Wotgame
-+.battle.net
-+.battlenet.com.cn
-+.wotgame.cn
-+.wggames.cn
-+.wowsgame.cn
-+.wargaming.net
-
-# Golang
-proxy.golang.org
-
-# STUN
-stun.*.*
-stun.*.*.*
-+.stun.*.*
-+.stun.*.*.*
-+.stun.*.*.*.*
-+.stun.*.*.*.*.*
-
-# Apple Software Update Service
-mesu.apple.com
-swscan.apple.com
-swquery.apple.com
-swdownload.apple.com
-swcdn.apple.com
-swdist.apple.com
-
-# Google
-lens.l.google.com
-stun.l.google.com
-na.b.g-tun.com
-
-# Netflix
-+.nflxvideo.net
-
-# Bilibili
-*.mcdn.bilivideo.cn
-
-# Disney Plus
-+.media.dssott.com
-
-# Xiaomi
-+.market.xiaomi.com
-Mijia Cloud
-
-#向日葵远程控制
+# 向日葵
 +.oray.com
 +.orayimg.com
++.sunlogin.net
