@@ -59,6 +59,10 @@ proxy-groups:
     include-all: true
     type: select
     proxies:
+      - Hysteria2
+      - TUIC
+      - Vless
+      - AnyTLS
       - 🇺🇸
       - 🇭🇰
       - 🇨🇳
@@ -72,6 +76,10 @@ proxy-groups:
     type: select
     proxies:
       - 🔑 Default
+      - Hysteria2
+      - TUIC
+      - Vless
+      - AnyTLS
       - 🇺🇸
       - 🇭🇰
       - 🇨🇳
@@ -85,6 +93,10 @@ proxy-groups:
     type: select
     proxies:
       - 🔑 Default
+      - Hysteria2
+      - TUIC
+      - Vless
+      - AnyTLS
       - 🇺🇸
       - 🇭🇰
       - 🇨🇳
@@ -273,6 +285,10 @@ proxy-groups:
     type: select
     proxies:
       - 💿 Media
+      - Hysteria2
+      - TUIC
+      - Vless
+      - AnyTLS
       - 🇺🇸
       - 🇭🇰
       - 🇨🇳
@@ -352,6 +368,33 @@ proxy-groups:
     interval: 300
     tolerance: 50
   ### END COUNTRY ###
+
+  ### BEGIN MINE ###
+  - name: Hysteria2
+    include-all: true
+    filter: (?i)Akri-Hysteria2
+    type: load-balance
+    interval: 300
+    tolerance: 50
+  - name: Vless
+    include-all: true
+    filter: (?i)Akri-Vless-Reality
+    type: load-balance
+    interval: 300
+    tolerance: 50
+  - name: AnyTLS
+    include-all: true
+    filter: (?i)Akri-AnyTLS
+    type: load-balance
+    interval: 300
+    tolerance: 50
+  - name: TUIC
+    include-all: true
+    filter: (?i)Akri-TUIC
+    type: load-balance
+    interval: 300
+    tolerance: 50
+  ### END MINE ###
 ##### END proxy-groups #####
 ##### ---------------------------------------------------------------------------------------------------- #####
 ##### BEGIN rule-providers #####
