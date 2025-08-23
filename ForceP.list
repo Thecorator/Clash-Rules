@@ -155,3 +155,7 @@ DOMAIN,media.micu.hk
 DOMAIN,media1.micu.hk
 DOMAIN,media2.micu.hk
 DOMAIN,media3.micu.hk
+
+# hxd
+DOMAIN-SUFFIX,as174.de
+DOMAIN-SUFFIX,bili.rip
