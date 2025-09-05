@@ -159,3 +159,6 @@ DOMAIN,media3.micu.hk
 # hxd
 DOMAIN-SUFFIX,as174.de
 DOMAIN-SUFFIX,bili.rip
+
+# openwrt.ai
+DOMAIN-SUFFIX,openwrt.ai
