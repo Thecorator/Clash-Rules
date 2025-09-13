@@ -347,7 +347,7 @@ proxy-groups:
     tolerance: 50
   - name: 🇰🇷
     include-all: true
-    filter: (?i)🇰🇷|韩|韓|KR|KOR|Korea
+    filter: (?i)🇰🇷|韩|韓|KOR|Korea
     type: url-test
     interval: 300
     tolerance: 50
