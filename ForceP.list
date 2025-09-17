@@ -151,6 +151,7 @@ DOMAIN-SUFFIX,vk.ru
 DOMAIN-SUFFIX,vkuseraudio.net
 
 # MICU
+DOMAIN,v3.micu.hk
 DOMAIN,media.micu.hk
 DOMAIN,media1.micu.hk
 DOMAIN,media2.micu.hk
