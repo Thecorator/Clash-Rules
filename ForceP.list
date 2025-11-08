@@ -137,6 +137,7 @@ DOMAIN-SUFFIX,crowdin.com
 
 # F-Droid
 DOMAIN-SUFFIX,f-droid.org
+DOMAIN-SUFFIX,izzysoft.de
 
 # Cloudflare Workers
 DOMAIN-SUFFIX,workers.dev
