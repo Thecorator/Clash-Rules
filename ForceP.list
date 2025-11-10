@@ -73,6 +73,8 @@ DOMAIN-SUFFIX,xn--ngstr-lra8j.com
 
 DOMAIN-SUFFIX,googleapis.cn
 
+DOMAIN-SUFFIX,gstatic.com
+
 # Google mtalk
 DOMAIN,mtalk.google.com
 DOMAIN,alt1-mtalk.google.com
