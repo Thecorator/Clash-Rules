@@ -103,6 +103,6 @@ IP-CIDR,45.129.8.99/32,no-resolve
 IP-CIDR,202.73.4.144/32,no-resolve
 
 # Pear.inc
-DOMAIN-SUFFIX,akrineon.top
+#DOMAIN-SUFFIX,akrineon.top
 DOMAIN-SUFFIX,kansensha.top
 DOMAIN-SUFFIX,sinego.top
