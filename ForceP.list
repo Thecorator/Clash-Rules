@@ -153,16 +153,5 @@ DOMAIN-SUFFIX,userapi.com
 DOMAIN-SUFFIX,vk.ru
 DOMAIN-SUFFIX,vkuseraudio.net
 
-# MICU
-DOMAIN,v3.micu.hk
-DOMAIN,media.micu.hk
-DOMAIN,media1.micu.hk
-DOMAIN,media2.micu.hk
-DOMAIN,media3.micu.hk
-
-# hxd
-DOMAIN-SUFFIX,as174.de
-DOMAIN-SUFFIX,bili.rip
-
 # openwrt.ai
 DOMAIN-SUFFIX,openwrt.ai
