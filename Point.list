@@ -57,14 +57,3 @@
 ##src
 ##仅支持关于「目标IP」的规则
 ##将「目标IP」匹配转为「来源IP」匹配
-
-# MICU
-DOMAIN,v3.micu.hk
-DOMAIN,media.micu.hk
-DOMAIN,media1.micu.hk
-DOMAIN,media2.micu.hk
-DOMAIN,media3.micu.hk
-
-# hxd
-DOMAIN-SUFFIX,as174.de
-DOMAIN-SUFFIX,bili.rip
