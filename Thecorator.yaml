@@ -22,6 +22,74 @@ geo-update-interval: 12
 ##### BEGIN proxy-groups #####
 proxy-groups:
   ### BEGIN DEFAULT ###
+  - name: 🔑 Default
+    include-all: true
+    type: select
+    proxies:
+      - Hysteria2
+      - TUIC
+      - Vless
+      - AnyTLS
+      - 🇺🇸
+      - 🇭🇰
+      - 🇨🇳
+      - 🇸🇬
+      - 🇯🇵
+      - 🇰🇷
+      - DIRECT
+      - REJECT
+  - name: 💡 Point
+    include-all: true
+    type: select
+    proxies:
+      - 🧬 Proxy
+      - 🇺🇸
+      - 🇭🇰
+      - 🇨🇳
+      - 🇸🇬
+      - 🇯🇵
+      - 🇰🇷
+      - DIRECT
+      - REJECT
+  - name: 💫 Special
+    include-all: true
+    type: select
+    proxies:
+      - 🧬 Proxy
+      - 🇺🇸
+      - 🇭🇰
+      - 🇨🇳
+      - 🇸🇬
+      - 🇯🇵
+      - 🇰🇷
+      - DIRECT
+      - REJECT
+  - name: 🚧 Temp
+    include-all: true
+    type: select
+    proxies:
+      - 🧬 Proxy
+      - 🇺🇸
+      - 🇭🇰
+      - 🇨🇳
+      - 🇸🇬
+      - 🇯🇵
+      - 🇰🇷
+      - DIRECT
+      - REJECT
+  - name: 💿 Media
+    include-all: true
+    type: select
+    proxies:
+      - 🧬 Proxy
+      - 🇺🇸
+      - 🇭🇰
+      - 🇨🇳
+      - 🇸🇬
+      - 🇯🇵
+      - 🇰🇷
+      - DIRECT
+      - REJECT
   - name: 🧬 Proxy
     type: select
     proxies:
@@ -55,56 +123,6 @@ proxy-groups:
       - 🧬 Proxy
       - DIRECT
       - REJECT
-  - name: 🔑 Default
-    include-all: true
-    type: select
-    proxies:
-      - Hysteria2
-      - TUIC
-      - Vless
-      - AnyTLS
-      - 🇺🇸
-      - 🇭🇰
-      - 🇨🇳
-      - 🇸🇬
-      - 🇯🇵
-      - 🇰🇷
-      - DIRECT
-      - REJECT
-  - name: 💡 Point
-    include-all: true
-    type: select
-    proxies:
-      - 🔑 Default
-      - Hysteria2
-      - TUIC
-      - Vless
-      - AnyTLS
-      - 🇺🇸
-      - 🇭🇰
-      - 🇨🇳
-      - 🇸🇬
-      - 🇯🇵
-      - 🇰🇷
-      - DIRECT
-      - REJECT
-  - name: 💿 Media
-    include-all: true
-    type: select
-    proxies:
-      - 🔑 Default
-      - Hysteria2
-      - TUIC
-      - Vless
-      - AnyTLS
-      - 🇺🇸
-      - 🇭🇰
-      - 🇨🇳
-      - 🇸🇬
-      - 🇯🇵
-      - 🇰🇷
-      - DIRECT
-      - REJECT
   ### END DEFAULT ###
 
   ### BEGIN TEST ###
@@ -134,20 +152,6 @@ proxy-groups:
       - 🧬 Proxy
       - REJECT
   - name: 💪 ForceP
-    include-all: true
-    type: select
-    proxies:
-      - 🧬 Proxy
-      - DIRECT
-      - REJECT
-  - name: 💫 Special
-    include-all: true
-    type: select
-    proxies:
-      - 🧬 Proxy
-      - DIRECT
-      - REJECT
-  - name: 🚧 Temp
     include-all: true
     type: select
     proxies:
@@ -192,7 +196,7 @@ proxy-groups:
     include-all: true
     type: select
     proxies:
-      - 💡 Point
+      - 🧬 Proxy
       - DIRECT
       - REJECT
   - name: 📹 Youtube
