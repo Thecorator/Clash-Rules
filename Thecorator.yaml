@@ -16,7 +16,7 @@ geox-url:
   mmdb: "https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/country.mmdb"
   asn: "https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/GeoLite2-ASN.mmdb"
 geo-auto-update: true
-geo-update-interval: 12
+geo-update-interval: 24
 ##### END geox-url #####
 ##### ---------------------------------------------------------------------------------------------------- #####
 ##### BEGIN proxy-groups #####
@@ -145,193 +145,222 @@ proxy-groups:
 
   ### BEGIN MINE ###
   - name: 💪 ForceD
-    include-all: true
     type: select
     proxies:
       - DIRECT
       - 🧬 Proxy
+      - 💡 Point
+      - 💫 Special
+      - 🚧 Temp
       - REJECT
   - name: 💪 ForceP
-    include-all: true
     type: select
     proxies:
       - 🧬 Proxy
+      - 💡 Point
+      - 💫 Special
+      - 🚧 Temp
       - DIRECT
       - REJECT
   ### END MINE ###
 
   ### BEGIN MINE OTHER ###
   - name: 🧲 BTD
-    include-all: true
     type: select
     proxies:
       - DIRECT
       - 🧬 Proxy
+      - 💡 Point
+      - 💫 Special
+      - 🚧 Temp
       - REJECT
   - name: 🧲 BTP
-    include-all: true
     type: select
     proxies:
       - 🧬 Proxy
+      - 💡 Point
+      - 💫 Special
+      - 🚧 Temp
       - DIRECT
       - REJECT
   - name: ☁️ PikPakD
-    include-all: true
     type: select
     proxies:
       - DIRECT
       - 🧬 Proxy
+      - 💡 Point
+      - 💫 Special
+      - 🚧 Temp
       - REJECT
   - name: ☁️ PikPakP
-    include-all: true
     type: select
     proxies:
       - 🧬 Proxy
+      - 💡 Point
+      - 💫 Special
+      - 🚧 Temp
       - DIRECT
       - REJECT
   ### END MINE OTHER ###
 
   ### BEGIN SERVICE ###
   - name: 💬 AI
-    include-all: true
     type: select
     proxies:
       - 🧬 Proxy
+      - 💡 Point
+      - 💫 Special
+      - 🚧 Temp
       - DIRECT
       - REJECT
   - name: 📹 Youtube
-    include-all: true
     type: select
     proxies:
       - 🧬 Proxy
+      - 💡 Point
+      - 💫 Special
+      - 🚧 Temp
       - DIRECT
       - REJECT
   - name: 🖼️ Google
-    include-all: true
     type: select
     proxies:
       - 🧬 Proxy
+      - 💡 Point
+      - 💫 Special
+      - 🚧 Temp
       - DIRECT
       - REJECT
   - name: 👾 Github
-    include-all: true
     type: select
     proxies:
       - 🧬 Proxy
+      - 💡 Point
+      - 💫 Special
+      - 🚧 Temp
       - DIRECT
       - REJECT
   - name: ☁️ OneDrive
-    include-all: true
     type: select
     proxies:
       - DIRECT
       - 🧬 Proxy
+      - 💡 Point
+      - 💫 Special
+      - 🚧 Temp
       - REJECT
   - name: 🌆 Microsoft
-    include-all: true
     type: select
     proxies:
       - DIRECT
       - 🧬 Proxy
+      - 💡 Point
+      - 💫 Special
+      - 🚧 Temp
       - REJECT
   - name: 🍎 Apple
-    include-all: true
     type: select
     proxies:
       - DIRECT
       - 🧬 Proxy
+      - 💡 Point
+      - 💫 Special
+      - 🚧 Temp
       - REJECT
   - name: 📟 ProxyIM
-    include-all: true
     type: select
     proxies:
       - 🧬 Proxy
+      - 💡 Point
+      - 💫 Special
+      - 🚧 Temp
       - DIRECT
       - REJECT
   - name: 🌌 Social
-    include-all: true
     type: select
     proxies:
       - 🧬 Proxy
+      - 💡 Point
+      - 💫 Special
+      - 🚧 Temp
       - DIRECT
       - REJECT
   - name: ⚡ SpeedTest
-    include-all: true
     type: select
     proxies:
       - 🧬 Proxy
+      - 💡 Point
+      - 💫 Special
+      - 🚧 Temp
       - DIRECT
       - REJECT
   ### END SERVICE ###
 
   ### BEGIN GAME ###
   - name: 🎮 Game
-    include-all: true
     type: select
     proxies:
-      - DIRECT
       - 🧬 Proxy
+      - 💡 Point
+      - 💫 Special
+      - 🚧 Temp
+      - DIRECT
       - REJECT
   ### END GAME ###
 
   ### BEGIN MEDIA ###
   - name: 📺 BilibiliHMT
-    include-all: true
     type: select
     proxies:
       - DIRECT
-      - 💿 Media
       - 🇭🇰
       - 🇨🇳
       - REJECT
   - name: 🎥 Media
-    include-all: true
     type: select
     proxies:
       - 💿 Media
-      - Hysteria2
-      - TUIC
-      - Vless
-      - AnyTLS
-      - 🇺🇸
-      - 🇭🇰
-      - 🇨🇳
-      - 🇸🇬
-      - 🇯🇵
-      - 🇰🇷
       - DIRECT
       - REJECT
   ### END MEDIA ###
 
   ### BEGIN ADBLOCK ###
   - name: 🛑 AD
-    include-all: true
     type: select
     proxies:
       - REJECT
       - DIRECT
       - 🧬 Proxy
+      - 💡 Point
+      - 💫 Special
+      - 🚧 Temp
   - name: 🍃 ProgramAD
-    include-all: true
     type: select
     proxies:
       - REJECT
       - DIRECT
       - 🧬 Proxy
+      - 💡 Point
+      - 💫 Special
+      - 🚧 Temp
   - name: 📛 AdBlock
-    include-all: true
     type: select
     proxies:
       - REJECT
       - DIRECT
       - 🧬 Proxy
+      - 💡 Point
+      - 💫 Special
+      - 🚧 Temp
   - name: 🛡️ Privacy
-    include-all: true
     type: select
     proxies:
       - REJECT
       - DIRECT
       - 🧬 Proxy
+      - 💡 Point
+      - 💫 Special
+      - 🚧 Temp
   ### END ADBLOCK ###
 
   ### BEGIN COUNTRY ###
