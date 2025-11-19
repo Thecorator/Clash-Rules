@@ -90,6 +90,7 @@ DOMAIN,msg.umengcloud.com
 DOMAIN,tracking.miui.com
 
 # Apple CDN
+#IP-CIDR,38.22.94.54/32,no-resolve
 #IP-CIDR,45.129.8.99/32,no-resolve
 # Apple CDN
 IP-CIDR,154.17.2.171/32,no-resolve
