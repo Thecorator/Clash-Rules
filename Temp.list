@@ -57,7 +57,3 @@
 ##src
 ##仅支持关于「目标IP」的规则
 ##将「目标IP」匹配转为「来源IP」匹配
-
-IP-CIDR,65.75.222.20/32,no-resolve
-IP-CIDR,205.198.77.23/32,no-resolve
-IP-CIDR,205.198.73.9/32,no-resolve
