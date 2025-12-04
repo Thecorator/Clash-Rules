@@ -547,6 +547,13 @@ rule-providers:
     interval: 86400
     format: text
     type: http
+  Speedtest:
+    url: https://raw.githubusercontent.com/Thecorator/Clash-Rules/main/Speedtest.list
+    path: ./ruleset/Speedtest.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
 
   SteamCN:
     url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/SteamCN.list
@@ -770,6 +777,7 @@ rules:
   - "GEOIP,twitter,🌌 Social,no-resolve"
   - "GEOIP,facebook,🌌 Social,no-resolve"
   - "GEOSITE,category-speedtest,⚡ SpeedTest"
+  - "RULE-SET,Speedtest,⚡ SpeedTest"
 
   - "RULE-SET,BilibiliHMT,📺 BilibiliHMT"
 
